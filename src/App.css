@@ -1,0 +1,686 @@
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.links {
+  display: flex;
+  justify-content: center;
+  margin-left: 270px;
+  margin-top: 23px;
+  position: absolute;
+  z-index: 10;
+  width: 100%;
+  list-style-type:none;
+}
+
+.links li {
+  margin: 0 20px; /* Adjust this value to control the space between links */
+}
+
+.links li a {
+  display: inline-block;
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+text-decoration: none;
+}
+
+ul, li {
+  text-align: center;
+}
+
+.heading h {
+  margin-left: 200px;
+  font-family: "Nunito";
+  font-size: 25px;
+  color: white;
+}
+
+.heading {
+  margin-top: 15px;
+  position: absolute;
+  color: white;
+}
+
+.hero img {
+  width: 100%;
+  margin-top: -80px;
+  height: 750px;
+  position: absolute;
+  z-index: -10;
+  background-size: cover;
+}
+.fore p{
+  font-size: 40px;
+  font-family: "Nunito";
+  color:white;
+  font-weight:800;
+  line-height: 40px;
+  margin-left: 200px;
+  position: absolute;
+  margin-top: 200px;
+}
+.fore1{
+  font-size: 15px;
+  position: absolute;
+  font-family: "Montserrat";
+  color: white;
+  font-weight:300;
+  margin-top: 300px;
+  margin-left: 200px;
+  line-height: 30px;
+}
+.read button{
+  margin-left: 200px;
+  position: absolute;
+  margin-top: 420px;
+  width: 150px;
+  height: 50px;
+  border-color:transparent;
+  border-radius: 10px;
+  font-family: "Nunito";
+  font-size: 20px;
+  color: rgb(4, 247, 166);
+  font-weight: 700;
+}
+
+.depart p{
+  font-size: 40px;
+  font-family: "Nunito";
+  color: black;
+  font-weight:600;
+  position: absolute;
+  margin-top: 770px;
+  margin-left: 600px;
+}
+.depart1 p{
+  font-family: "Nunito";
+  color: black;
+  font-weight:400;
+  position: absolute;
+  margin-top: 840px;
+  margin-left: 350px;
+}
+.all1 .circ1{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid  transparent;
+  position: absolute;
+  margin-top: 880px;
+  margin-left: 280px;
+  margin-bottom: 40px;
+  background-color: #62d2a2;
+}
+.circ1 img{
+  height: 50px;
+  width: 50px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.circ1 p{
+margin-top: 40px;
+font-family: "Nunito";
+font-weight: 800;
+}
+.circ1 h1{
+margin-top: 10px;
+width: 250px;
+margin-left: -60px;
+font-size: 15px;
+font-weight: 400;
+font-family: "Nunito";
+}
+.circ2{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  position: absolute;
+  margin-top: 880px;
+  margin-left: 600px;
+  background-color: #62d2a2;
+  margin-bottom: 40px;
+}
+.circ2 img{
+  height: 50px;
+  width: 50px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.circ2 p{
+  margin-top: 40px;
+  font-family: "Nunito";
+  font-weight: 800;
+  }
+  .circ2 h1{
+  margin-top: 10px;
+  width: 250px;
+  margin-left: -60px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Nunito";
+  }
+.circ3{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid transparent;
+  position: absolute;
+  margin-top: 880px;
+  margin-left: 920px;
+  margin-bottom: 40px;
+  background-color: #62d2a2;
+}
+.circ3 img{
+  height: 50px;
+  width: 50px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.circ3 p{
+  margin-top: 40px;
+  font-family: "Nunito";
+  font-weight: 800;
+  margin-left: 10px;
+  }
+  .circ3 h1{
+  margin-top: 10px;
+  width: 250px;
+  margin-left: -60px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Nunito";
+  }
+.circ4{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border: 1px solid  transparent;
+  position: absolute;
+  margin-top: 880px;
+  margin-left: 1180px;
+  margin-bottom: 40px;
+  background-color: #62d2a2;
+}
+.circ4 p{
+  margin-top: 40px;
+  font-family: "Nunito";
+  font-weight: 800;
+  margin-left: 10px;
+  }
+  .circ4 h1{
+  margin-top: 10px;
+  width: 250px;
+  margin-left: -20px;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Nunito";
+  }
+.circ4 img{
+  height: 50px;
+  width: 50px;
+  margin-left: 25px;
+  margin-top: 25px;
+}
+.all1{
+  margin-left: -30px;
+}
+.view button{
+  position: absolute;
+margin-left: 700px;
+  margin-top: 1150px;
+  width: 150px;
+  height: 50px;
+  border-color:transparent;
+  border-radius: 10px;
+  font-family: "Nunito";
+  font-size: 20px;
+  color:white;
+  align-items: center;
+  justify-content: center;
+  background: #62d2a2;
+  font-weight: 700;
+}
+.aboutpng img{
+  margin-top: 1300px;
+  height: 350px;
+  width: 550px;
+  margin-left: 200px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+
+}
+.aboutp{
+  position:absolute;
+  margin-top: -300px;
+  margin-left: 780px;
+  font-size: 30px;
+  font-family: "Nunito";
+  color: black;
+  font-weight:600;
+  position: absolute;
+}
+.aboutp2{
+  position:absolute;
+  margin-top: -250px;
+  margin-left: 780px;
+  font-family: "Nunito";
+  color: black;
+  width: 600px;
+}
+.button2 button{
+  position: absolute;
+  margin-left: 780px;
+  margin-top: -100px;
+  width: 150px;
+  height: 50px;
+  border-color:transparent;
+  border-radius: 5px;
+  font-family: "Nunito";
+  font-size: 20px;
+  color:white;
+  align-items: center;
+  justify-content: center;
+  background: #62d2a2;
+  font-weight: 400;
+}
+.doctors p{
+  align-items: center;
+  text-align: center;
+  color: white;
+  margin-top: 80px;
+  font-family: "Nunito";
+  font-size: 35px;
+  font-weight: 700;
+}
+.doctorsp p{
+  text-align: center;
+  color: white;
+  font-family: "Nunito";
+  margin-top: 20px;
+} 
+.doc{
+  background-color:#1fab89;
+  position: absolute;
+  margin-top: 100px;
+  width: 100%;
+  height: 800px;
+}
+.doc1{
+  height: 400px;
+  width: 320px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.doc1 img{
+  height: 300px;
+  width: 320px;
+  border-radius: 5px;
+}
+.doc2{
+  height: 400px;
+  width: 320px;
+  border-radius: 5px;
+  margin-left: 40px;
+  border: 1px solid transparent;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.doc2 img{
+  height: 300px;
+  width: 320px;
+  border-radius: 5px;
+}
+
+.doc3{
+  height: 400px;
+  width: 320px;
+  margin-left: 40px;
+  border-radius: 5px;
+  border: 1px solid transparent;
+  background-color: white;
+  margin-bottom: 20px;
+}
+.doc3 img{
+  height: 300px;
+  width: 320px;
+  border-radius: 5px;
+}
+.alldocs{
+  display: flex;
+  margin-left: 200px;
+  margin-top: 40px;
+}
+.docbutton button{
+  margin-left: 700px;
+  margin-top: 30px;
+  width: 150px;
+  height: 40px;
+  border-color:transparent;
+  border-radius: 5px;
+  font-family: "Nunito";
+  font-size: 20px;
+  color:white;
+  align-items: center;
+  justify-content: center;
+  background: #62d2a2;
+  font-weight: 400;
+}
+input{
+  position: relative;
+  margin-top: 1000px;
+  height: 40px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.inputs {
+  margin-left: 200px;
+
+}
+.inputs input{
+width: 243px;
+background-color: rgb(210, 210, 205);
+border-color: transparent;
+}
+.inputs #mydate{
+  margin-left: 20px;
+}
+.inputs #inputs1{
+  margin-left: 20px;
+}
+.inputs1 #inputs2{
+  margin-left: 20px;
+}
+.inputs1 input{
+   margin-top:-5px;
+   margin-left: 200px;
+   width: 243px;
+   background-color:rgb(210, 210, 205);
+   border-color: transparent;
+}
+.inputs2 input{
+  margin-top:-5px;
+  margin-left: 200px;
+  width: 510px;
+  height: 140px;
+  background-color:rgb(210, 210, 205);
+  border-color: transparent;
+}
+.inputs3 button{
+  margin-top:-5px;
+  margin-left: 200px;
+  width: 510px;
+  height: 40px;
+  color: white;
+  background-color: #1fab89;
+  border-color: transparent;
+}
+.inputs3 button::placeholder{
+color: white;
+text-transform: uppercase;
+}
+.get p{
+  margin-top: 950px;
+  margin-left: 200px;
+  position:absolute;
+  font-size: 30px;
+  font-family: "Nunito";
+  color: black;
+  font-weight:600;
+  position: absolute;
+}
+.inputs{
+  margin-top: 40px;
+}
+.nurse img{
+  position: absolute;
+  margin-top: -317px;
+margin-left: 750px; 
+height: 320px; 
+width: 490px;
+}
+.test p {
+  margin-left: 45%;
+  font-size: 30px;
+  font-family: "Nunito";
+  color: black;
+  font-weight: 600;
+  position: absolute;
+  margin-top: 80px;
+}
+
+.client1 img {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  margin-top: 170px;
+  justify-content: center;
+  margin-left: 47%;
+}
+
+.clientp p {
+  text-align: center;
+  font-family: "Nunito";
+  font-size: 20px;
+  color: #62d2a2;
+  margin-top: 20px;
+  margin-left: 30px;
+  font-weight: 700;
+}
+
+.clientp2 p {
+  text-align: center;
+  width: 900px;
+  font-family: "Nunito";
+  margin-top: 5px;
+  font-size: 17px;
+  margin-left: 20%;
+}
+
+.carousel-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.carousel-buttons button {
+  background-color: #62d2a2;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin: 0 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-buttons button:hover {
+  background-color: #52b58a;
+}
+.quotes img{
+  margin-left: 49%;
+  margin-top: 40px;
+  
+}
+.footer{
+  background-color:#1fab89;
+  height: 400px;
+}
+#location{
+  margin-left: 190px;
+  margin-top: 80px;
+  position: absolute;
+  color: white;
+  height: 20px;
+}
+#location2{
+  margin-left: 190px;
+  margin-top: 110px;
+  position: absolute;
+  color: white;
+  height: 20px;
+}
+#location3{
+  margin-left: 190px;
+  margin-top: 140px;
+  position: absolute;
+  color: white;
+  height: 20px;
+}
+.reach p{
+  margin-left: 220px;
+  color: white;
+  font-family: "Nunito";
+}
+#p2{
+  margin-top: 80px;
+  position: absolute;
+
+}
+#p3{
+  margin-top: 110px;
+  position: absolute;
+}
+#p4{
+  margin-top: 140px;
+  position: absolute;
+}
+#p1{
+  margin-top: 40px;
+  position: absolute;
+  margin-left: 195px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.social{
+  margin-left: 187px;
+  height: 30px;
+  margin-top: 190px;
+  position: absolute;
+}
+
+.social-icon {
+  margin-right: 10px; /* Adjust the value to your preferred spacing */
+}
+
+.social-icon:last-child {
+  margin-right: 0; /* Remove the margin from the last icon */
+}
+.footabout h{
+  margin-left: 490px;
+  margin-top: 35px;
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  font-family: "Nunito"
+  ;
+  font-weight: 600;
+  
+}
+.footabout p{
+  width: 300px;
+  margin-left: 490px;
+  margin-top: 85px;
+  font-family: "Nunito";
+  color: white;
+  position: absolute;
+}
+.footlinks h{
+  margin-left: 920px;
+  margin-top: 35px;
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  font-family: "Nunito";
+  font-weight: 600;
+}
+.footlinks p{
+  width: 300px;
+  margin-left: 920px;
+  margin-top: 85px;
+  font-family: "Nunito";
+  color: white;
+  position: absolute;
+}
+#link2{
+  margin-top: 110px;
+}
+#link3{
+  margin-top: 140px;
+}
+.footersub h{
+  margin-left: 1190px;
+  margin-top: 35px;
+  position: absolute;
+  font-size: 25px;
+  color: white;
+  font-family: "Nunito";
+  font-weight: 600;
+}
+.footersub input{
+  margin-top: -400px;
+  margin-right: 1200px;
+}
+#text1{
+  margin-left: 78.5%;
+  margin-top: 80px;
+  width: 200px;
+  border-radius: 5%;
+  border-color: transparent;
+}
+#text2{
+  margin-left: 78.5%;
+  width: 200px;
+  background-color:#62d2a2 ;
+  border-radius: 5%;
+  border-color: transparent;
+}
+#text2::placeholder{
+  color: white;
+  font-family: "Nunito";
+  font-size: 17px;
+}
+.reg p{
+margin-top: 100px;
+text-align: center;
+font-family: "Nunito";
+color: white;
+position: absolute;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+
+}
+.reg1 p{
+  display: flex;
+  width: 100%;
+justify-content: center;
+  margin-top: 150px;
+  font-family: "Nunito";
+  color: white;
+  position: absolute;
+}
+select {
+  margin-left: 20px;
+  width: 243px;
+  height: 40px;
+  text-align: center;
+  font-weight: 100;
+  color: rgba(140, 142, 143, 0.932);
+  background-color:rgb(210, 210, 205);
+  border-color: transparent;
+}
+
+
